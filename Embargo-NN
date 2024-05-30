@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #002A8F; /* Темно-синий цвет флага Кубы */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #002A8F; /* Темно-синий цвет флага Кубы */
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .service {
+            flex: 1 1 calc(33.333% - 20px);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .service h3 {
+            color: #D52B1E; /* Красный цвет флага Кубы */
+        }
+        footer {
+            background-color: #002A8F;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Имя Фамилия</h1>
+        <p>Bienvenidos el Embargo</p>
+    </header>
+    <main>
+        <section class="section">
+            <h2>Репетиционная точка EMBARGO</h2>
+            <p>Hola, amigos! У нас вы можете собраться с группой или же на одиночную репетицию по самым низким ценам в городе ! </p>
+        </section>
+        <section class="section services">
+            <h2>Услуги</h2>
+            <div class="service">
+                <h3>Репетиция по предварительной записи.</h3>
+                <p>350р/час.</p>
+            </div>
+            <div class="service">
+                <h3>Ночная репетиция.</h3>
+                <p>1000р.</p>
+            </div>
+            <div class="service">
+                <h3>Аренда железа(тарелок)</h3>
+                <p>200р</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>тел. 89990764614 | https://vk.com/embargo23</p>
+    </footer>
+</body>
+</html>
